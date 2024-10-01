@@ -1,0 +1,168 @@
+body {
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  justify-content: center;
+  font-family: Outfit;
+  color: hsl(30, 10%, 34%);
+}
+
+.main-container {
+  background-color: hsl(0, 0%, 100%);
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 2%;
+  width: 750px; /* You can also make this responsive */
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+
+p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 1rem; /* Base size */
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.div-prep {
+  background-color: hsl(322, 100%, 98%);
+  padding: 5px;
+  font-family: Outfit;
+}
+
+li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+h4 {
+  color: hsl(332, 51%, 32%);
+}
+
+.title {
+  font-size: 1.5rem; /* Base size */
+  color: hsl(14, 54%, 28%);
+  font-weight: 700;
+  font-family: Young Serif;
+}
+
+.info {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+hr {
+  opacity: 50%;
+}
+
+.data {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+strong {
+  color: hsl(33, 6%, 37%);
+}
+
+ol li::marker,
+ul li::marker {
+  color: hsl(14, 54%, 28%);
+  font-weight: 600;
+}
+
+ol li {
+  padding-left: 15px;
+  margin-left: -23px;
+}
+
+ul li {
+  padding-left: 15px;
+  margin-left: -23px;
+}
+
+.tabla {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.titulo {
+  font-size: 1.5rem; /* Base size */
+  color: black;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid hsl(0, 0%, 90%);
+}
+
+table {
+  width: 100%;
+}
+
+.cantidad {
+  color: hsl(14, 54%, 28%);
+  font-weight: 600;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 375px) {
+  body {
+    margin: 0;
+    border-radius: 0;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .main-container {
+    margin: 0;
+  }
+  h1 {
+    font-size: 1.8rem; /* Adjust as necessary */
+  }
+
+  p {
+    font-size: 1rem; /* Smaller for mobile */
+  }
+
+  h4 {
+    font-size: 1.2rem; /* Adjust as necessary */
+  }
+
+  .title {
+    font-size: 1.2rem; /* Adjust as necessary */
+  }
+
+  li {
+    font-size: 0.9rem; /* Adjust as necessary */
+  }
+
+  .titulo {
+    font-size: 1.8rem; /* Adjust as necessary */
+  }
+
+  th,
+  td {
+    font-size: 0.9rem; /* Adjust as necessary */
+  }
+
+  .cantidad {
+    font-size: 0.9rem; /* Adjust as necessary */
+  }
+}
